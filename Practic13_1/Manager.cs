@@ -12,7 +12,7 @@ namespace Practic13_1
         public int TeamSize { 
             get { return teamSize; }
             set {
-                if (teamSize >= 0) { teamSize = value; }
+                if (value >= 0) { teamSize = value; }
                 else { teamSize = 0; }
             }
         }
